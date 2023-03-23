@@ -1,0 +1,127 @@
+@font-face {
+  font-family: myFont;
+  src: url(../other/MR\ ROBOT.ttf);
+}
+
+body {
+  background-image: url("../other/backg.jpg");
+  /* height: 750px; */
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  opacity: 70%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: rgb(143, 191, 229);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+  /* font-family: myFont; */
+}
+
+nav a:hover {
+  color: #cf3631;
+}
+
+/* CSS styles for image box */
+.image-container {
+  margin: 50px auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.image-cover img {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.image-container h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(143, 191, 229);
+  opacity: 50%;
+}
+
+.image-cover {
+  display: flex;
+}
+h1 {
+  color: rgb(143, 191, 229);
+  text-align: center;
+  font-family: myFont;
+  padding-top: 10px;
+}
+
+hr {
+  margin-bottom: 30px;
+  padding: 2px;
+  color: rgb(235, 237, 238);
+}
+
+footer {
+  background-color: aliceblue;
+  height: 60px;
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+  opacity: 20%;
+}
+footer h5 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+body {
+  margin-bottom: 0;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.image-container h3 {
+  color: rgb(143, 191, 229);
+  opacity: 30%;
+}
+
+select {
+  background-color: rgb(143, 191, 229);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+option {
+  background-color: rgb(143, 191, 229);
+}

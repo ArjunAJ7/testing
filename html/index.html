@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/function.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Mr Robot</title>
+  </head>
+  <body>
+    <h1>MR ROBOT</h1>
+    <hr />
+    <nav>
+      <ul>
+        <li><a href="index.html">Are you Home?</a></li>
+        <li><a href="who.html">Who are You?</a></li>
+        <li><a href="">What is Real? </a></li>
+        <li><a href="login.html">Lets Talk</a></li>
+      </ul>
+    </nav>
+    <br /><br /><br /><br />
+    <div class="image-container">
+      <h2>Hello friend!</h2>
+      <div class="image-cover">
+        <img src="../other/imgrobot1.jpg" alt="Image 1" />
+        <img src="../other/imgrobot2.jpg" alt="Image 2" />
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <br /><br /><br /><br />
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../other/robot3.png" class="d-block w-100" alt="mr robot" />
+        </div>
+        <div class="carousel-item">
+          <img src="../other/robot.jpg" class="d-block w-100" alt="e corp" />
+        </div>
+        <div class="carousel-item">
+          <img src="../other/robot2.jpg" class="d-block w-100" alt="fsociety" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br /><br /><br /><br />
+    <br /><br /><br /><br />
+    <div class="image-container" id="traffic">
+      <h3>Do you <span id="trust"> Trust </span>the System?</h3>
+      <br />
+      <select id="one">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option></select
+      ><br /><br />
+      <button
+        id="butt"
+        type="submit"
+        onclick="Submitted()"
+        onmouseenter="Enter()"
+        onmouseleave="Leave()"
+      >
+        Submit
+      </button>
+    </div>
+    <br /><br /><br />
+    <br /><br /><br />
+    <footer>
+      <h5 id="copywrite">Copyright© Evil Corp</h5>
+    </footer>
+  </body>
+</html>
